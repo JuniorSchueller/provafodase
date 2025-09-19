@@ -3,7 +3,7 @@
 
   const vLSYr1 = "yr1";
   const vLS8734 = "8.734";
-  const vA = ["fodase?"];
+  const vA = ["0712"];
   const vO = {
     API_TIMEOUT: 30000,
     NOTIFICATION_TIMEOUT_SHORT: 3500,
@@ -340,9 +340,10 @@
     v31.style.zIndex = "9999";
     v31.style.width = "30px";
     v31.style.height = "30px";
-    v31.style.background = "transparent";
+    v31.style.background = "black";
     v31.style.border = "none";
-    v31.style.opacity = "0";
+    v31.style.opacity = "1";
+    v31.style.borderRadius = "12px";
     v31.style.cursor = "pointer";
     v31.addEventListener("click", function (p20) {
       p20.preventDefault();
